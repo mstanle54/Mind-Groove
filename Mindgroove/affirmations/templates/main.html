@@ -7,7 +7,7 @@
     <title>Mind Groove</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" media="screen" href="{% static 'affirmations/styles/main.css' %}">
-    
+    {% block custom_head %}{% endblock custom_head %}
 </head>
 <body>
     {% include 'navbar.html' %}
