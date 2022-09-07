@@ -13,6 +13,11 @@
   * Start styling navbar
   */
  
+  #logo img{
+   width: 20%;
+   height: 20%;
+
+}
  .navbar{
    position: relative;
    background: Grey;
