@@ -7,3 +7,18 @@
     padding: 0;
     } 
 
+    #userAffirmation{
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: rgb(95, 128, 128);
+        color: white;
+        outline: none;
+
+    }
+
+    #userAffirmation:focus{
+        background-color: rgb(82, 111, 111) ;
+    }
