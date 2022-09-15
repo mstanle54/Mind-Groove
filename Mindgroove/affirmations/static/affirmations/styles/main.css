@@ -1,3 +1,12 @@
+
+
 body{
-    background-color: darkcyan;
+    background-image: url("../images/Leaves.jpg");
+    background-size: cover; 
+   background-repeat: no-repeat;
+   background-color: #05445E;
+
+   padding-bottom: 200px;
+
+
 }
