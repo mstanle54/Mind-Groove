@@ -1,0 +1,47 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Reset CSS
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ /* * * * * * * * * * * * * * * * * * * * * * * * * * *
+  * Start styling navbar
+  */
+ 
+  #logo img{
+   width: 15%;
+   height: 15%;
+   margin: 5px;
+   margin-left: 5%;
+   margin-bottom: 5%;
+
+}
+ .navbar{
+   position: relative;
+   background: Grey;
+   
+   
+ }
+
+ .navbar-left {
+   display: inline-block;
+
+}
+
+ .navbar-right {
+    display: inline-block;
+ }
+
+ .navbar-brand,
+.navbar .nav-link {
+   color: White;
+   text-decoration: none;
+
+   display: inline-block;
+   padding: 0px;
+}

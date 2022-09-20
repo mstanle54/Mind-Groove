@@ -1,19 +1,29 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <a href="/">
-        <h1>Mind Groove</h1>
-    </a>
-    <div id="logo">
-        <img src="https://i.imgur.com/9hTld6O.png" alt="Logo">
-    </div>
-    <hr>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'affirmations/styles/navbar.css' %}">
+    
 
-</body>
+    
+<nav class="navbar">
+    <a class="navbar-brand"  href="/">
+        <div id="logo">
+            <img src="https://i.imgur.com/9hTld6O.png" alt="Logo">
+    </a>
+ 
+    <div class="navbar-left">
+       <a class="nav-link" href="/affirmations">Affirmations</a>
+
+    </div>
+ 
+    <div class="navbar-right">
+       <a class="nav-link" href="/account">My Account</a>
+
+    </div>
+ </nav>
 </html>
