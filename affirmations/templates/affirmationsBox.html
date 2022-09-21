@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% extends 'main.html' %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affirmations</title>
+    {% block custom_head %}
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'affirmations/styles/affirmationsBox.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    {% endblock custom_head %}
+
+</head>
+{% block content %}
+<body>
+ 
+   
+    <form>
+        <fieldset name="affirmationBox">
+            <label for="userAffirmation">Affirmations</label><br>
+            <input type="text" id="userAffirmation" name="userAffirmation" value="Enter your affirmation..."><br>
+            <input type="submit" value="Save">
+        </fieldset>
+    </form>
+
+    
+    
+   
+</body>
+{% endblock %}
+</html>
