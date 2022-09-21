@@ -26,6 +26,7 @@
    background: Grey;
    
    
+   
  }
 
  .navbar-left {
@@ -41,7 +42,7 @@
 .navbar .nav-link {
    color: White;
    text-decoration: none;
-
+   margin: 0;
    display: inline-block;
    padding: 0px;
 }
