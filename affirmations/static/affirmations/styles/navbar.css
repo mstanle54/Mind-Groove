@@ -12,49 +12,55 @@
  /* * * * * * * * * * * * * * * * * * * * * * * * * * *
   * Start styling navbar
   */
- 
-  #logo img{
-   width: 15%;
-   height: 15%;
-   margin: 5px;
-   margin-left: 15%;
-   margin-bottom: 0;
+  .navbar, .nav-link, .logo {
+   color: White;
+   text-decoration: none;
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0px;
+   font-size: 25px;
+   
+}
 
+.logo{
+   width: 5%;
+   margin-left: 5%;
+   margin-top: 10px;
+
+}
+
+
+.logo img{
+   box-sizing: border-box;
+   width: 100%;
+   margin: 0%;
 }
  .navbar{
    position: relative;
    background: Grey;
    display: flex;
-   
-   
+   align-items: center;
+
    
  }
+
 
  .navbar-left {
 
 float: left;
-box-sizing: border-box;
 margin: 10px;
-
+margin-left: 50px;
 
 }
 
- .navbar-right {
+.navbar-right {
     /*display: inline-block;*/
     float: right;
-    box-sizing: border-box;
     margin: 10px;
-    margin-left: 20%;
+    margin-right: 20px;
+    margin-left: auto;
+    
 
  }
 
- .navbar-brand,
-.navbar .nav-link {
-   color: White;
-   text-decoration: none;
-   margin: 0;
-   display: inline-block;
-   padding: 0px;
-   font-size: 25px;
-   
-}
+
