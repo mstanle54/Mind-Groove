@@ -14,7 +14,7 @@
 
 }
 
-label[for="welcome"]{
+h2{
     display:block;
     font-size: 3em;
     font-family: 'Comfortaa', cursive;
@@ -22,24 +22,8 @@ label[for="welcome"]{
     text-align: center;
     color:#00cad6;
     margin-bottom: 5px;
-    
-  }
-    #welcome{
-        width: 50%;
-        padding: 30px 20px;
-        margin: auto;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-        border-radius: 4px;
-        background-color: rgb(95, 128, 128);
-        color: white;
-        outline: none;
-        resize: none;
-        position: relative;
+}
 
-
-        text-align: start;
-    }
 
     #welcome:focus{
         background-color: rgb(82, 111, 111) ;
