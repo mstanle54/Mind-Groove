@@ -17,13 +17,14 @@
    width: 15%;
    height: 15%;
    margin: 5px;
-   margin-left: 20%;
+   margin-left: 15%;
    margin-bottom: 0;
 
 }
  .navbar{
    position: relative;
    background: Grey;
+   display: flex;
    
    
    
@@ -31,13 +32,20 @@
 
  .navbar-left {
 
-   float: right;
+float: left;
+box-sizing: border-box;
+margin: 10px;
+
 
 }
 
  .navbar-right {
     /*display: inline-block;*/
     float: right;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-left: 20%;
+
  }
 
  .navbar-brand,
@@ -48,4 +56,5 @@
    display: inline-block;
    padding: 0px;
    font-size: 25px;
+   
 }
