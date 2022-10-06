@@ -21,6 +21,7 @@ import debug_toolbar
 from affirmations import views
 
 urlpatterns = [
+    path('login/', views.loginPage, name="login"),
     path('admin/', admin.site.urls),
 	path('', views.home, name="home"),
     path('_debug_/', include(debug_toolbar.urls)),
